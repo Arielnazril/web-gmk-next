@@ -32,14 +32,14 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center text-center max-w-5xl mx-auto w-full">
             
             {/* JUDUL UTAMA - Perbaikan class untuk konsistensi text-center */}
-            <h1 className="w-full text-center text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white leading-normal mb-6 tracking-tight drop-shadow-[0_4px_15px_rgba(0,0,0,0.6)]">
-            <span className="block w-full text-center">
-              Sekolah{" "}
-              <span className="inline-block md:inline-block w-auto bg-gradient-to-r from-blue-400 via-blue-100 to-emerald-400 bg-clip-text text-transparent italic py-2 px-1 filter drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] text-center">
+            <h1 className="w-full text-center flex flex-col items-center justify-center text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white leading-normal mb-6 tracking-tight drop-shadow-[0_4px_15px_rgba(0,0,0,0.6)]">
+              <span className="block text-center w-full">
+                Sekolah
+              </span>
+              <span className="inline-block text-center max-w-full bg-gradient-to-r from-blue-400 via-blue-100 to-emerald-400 bg-clip-text text-transparent italic py-2 px-2 filter drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
                 Global Maju Khatulistiwa
               </span>
-            </span>
-          </h1>
+            </h1>
 
             {/* YAYASAN */}
             <div className="inline-block mb-6 text-center">
