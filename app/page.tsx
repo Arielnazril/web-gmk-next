@@ -31,9 +31,9 @@ export default function Home() {
           <div className="text-center max-w-5xl mx-auto">
             {/* JUDUL UTAMA */}
             <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6 tracking-tight drop-shadow-[0_4px_25px_rgba(0,0,0,0.95)]">
-              <span className="block md:inline whitespace-nowrap">
+              <span className="block w-full text-center">
                 Sekolah{" "}
-                <span className="bg-gradient-to-r from-blue-400 via-blue-100 to-emerald-400 bg-clip-text text-transparent italic filter drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
+                <span className="block md:inline bg-gradient-to-r from-blue-400 via-blue-100 to-emerald-400 bg-clip-text text-transparent italic filter drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
                   Global Maju Khatulistiwa
                 </span>
               </span>

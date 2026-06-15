@@ -134,7 +134,7 @@ export default function TentangKami() {
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/20 to-transparent opacity-60 md:opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                   <div className="p-8 md:p-12 w-full transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
                     <span className="inline-block px-4 py-1.5 bg-blue-600/90 backdrop-blur-md text-white text-[10px] font-bold rounded-full mb-3 uppercase tracking-[0.2em]">
-                      Our Campus
+                      Our School
                     </span>
                     <h4 className="text-white font-bold text-xl md:text-2xl tracking-wide">
                       Kota Pontianak, Kalimantan Barat
