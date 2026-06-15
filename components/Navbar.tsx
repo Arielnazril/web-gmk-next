@@ -108,9 +108,9 @@ export default function Navbar() {
               </div>
             </div>
 
-            <Link href="/berita" className={`text-[13px] font-bold tracking-wide transition-colors ${isActive('/berita') ? 'text-blue-600' : 'text-slate-600 hover:text-blue-600'}`}>
+            {/* <Link href="/berita" className={`text-[13px] font-bold tracking-wide transition-colors ${isActive('/berita') ? 'text-blue-600' : 'text-slate-600 hover:text-blue-600'}`}>
               Berita
-            </Link>
+            </Link> */}
             <Link href="/hubungi-kami" className={`text-[13px] font-bold tracking-wide transition-colors ${isActive('/hubungi-kami') ? 'text-blue-600' : 'text-slate-600 hover:text-blue-600'}`}>
               Hubungi Kami
             </Link>
