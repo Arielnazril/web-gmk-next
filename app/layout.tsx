@@ -8,10 +8,11 @@ import PreloaderAndScroll from "@/components/PreloaderAndScroll";
 export const metadata: Metadata = {
   title: "Sekolah Global Maju Khatulistiwa",
   description: "Sekolah Global Maju Khatulistiwa - TK, SD, SMP",
+ /*
   icons: {
-    icon: "/images/logo-gmk.png",
-    shortcut: "/favicon.ico",
+    icon: '/favicon.ico',
   },
+*/
 };
 
 export default function RootLayout({

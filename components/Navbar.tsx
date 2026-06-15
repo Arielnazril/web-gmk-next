@@ -189,9 +189,9 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="/berita" className={`flex justify-between items-center px-6 py-4 rounded-2xl font-black text-sm tracking-wide transition-all ${isActive('/berita') ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'bg-slate-50 text-slate-700 hover:bg-slate-100'}`}>
+          {/* <Link href="/berita" className={`flex justify-between items-center px-6 py-4 rounded-2xl font-black text-sm tracking-wide transition-all ${isActive('/berita') ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'bg-slate-50 text-slate-700 hover:bg-slate-100'}`}>
             <span>Berita</span> <i className="fas fa-newspaper opacity-80"></i>
-          </Link>
+          </Link> */}
           
           <Link href="/hubungi-kami" className={`flex justify-between items-center px-6 py-4 rounded-2xl font-black text-sm tracking-wide transition-all ${isActive('/hubungi-kami') ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'bg-slate-50 text-slate-700 hover:bg-slate-100'}`}>
             <span>Hubungi Kami</span> <i className="fas fa-phone-alt opacity-80"></i>
