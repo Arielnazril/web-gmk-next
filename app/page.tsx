@@ -28,31 +28,33 @@ export default function Home() {
         </div>
 
         <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <div className="text-center max-w-5xl mx-auto">
-            {/* JUDUL UTAMA */}
-            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6 tracking-tight drop-shadow-[0_4px_25px_rgba(0,0,0,0.95)]">
-              <span className="block w-full text-center">
-                Sekolah{" "}
-                <span className="block md:inline bg-gradient-to-r from-blue-400 via-blue-100 to-emerald-400 bg-clip-text text-transparent italic filter drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-                  Global Maju Khatulistiwa
-                </span>
+          {/* Perbaikan: Memastikan pembungkus utama memaksa seluruh komponen di dalamnya flex-col dan rata tengah */}
+          <div className="flex flex-col items-center justify-center text-center max-w-5xl mx-auto w-full">
+            
+            {/* JUDUL UTAMA - Perbaikan class untuk konsistensi text-center */}
+            <h1 className="w-full text-center text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white leading-normal mb-6 tracking-tight drop-shadow-[0_4px_15px_rgba(0,0,0,0.6)]">
+            <span className="block w-full text-center">
+              Sekolah{" "}
+              <span className="inline-block md:inline-block w-auto bg-gradient-to-r from-blue-400 via-blue-100 to-emerald-400 bg-clip-text text-transparent italic py-2 px-1 filter drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] text-center">
+                Global Maju Khatulistiwa
               </span>
-            </h1>
+            </span>
+          </h1>
 
             {/* YAYASAN */}
-            <div className="inline-block mb-6">
-              <span className="px-5 py-2 text-white text-sm md:text-base font-bold bg-black/40 backdrop-blur-md rounded-full border border-white/30 shadow-lg shadow-black/50">
+            <div className="inline-block mb-6 text-center">
+              <span className="px-5 py-2 text-white text-sm md:text-base font-bold bg-black/40 backdrop-blur-md rounded-full border border-white/30 shadow-lg shadow-black/50 inline-block">
                 Yayasan Global Cahaya Khatulistiwa
               </span>
             </div>
 
             {/* TAGLINE */}
-            <p className="text-lg md:text-2xl lg:text-4xl font-black leading-relaxed mb-12 tracking-tight bg-gradient-to-r from-white via-blue-200 to-emerald-300 bg-clip-text text-transparent drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
+            <p className="w-full text-center text-lg md:text-2xl lg:text-4xl font-black leading-relaxed mb-12 tracking-tight bg-gradient-to-r from-white via-blue-200 to-emerald-300 bg-clip-text text-transparent drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
               Membangun Generasi <br className="md:hidden" /> Berbasis Entrepreneurship
             </p>
 
             {/* BUTTON */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 w-full sm:w-auto">
               <Link
                 href="#unit"
                 className="group w-full sm:w-auto px-10 py-5 bg-white text-blue-950 rounded-2xl md:rounded-3xl font-black text-base md:text-lg hover:bg-blue-50 transition-all hover:scale-105 shadow-2xl flex items-center justify-center gap-3"
@@ -63,7 +65,7 @@ export default function Home() {
 
               <Link
                 href="/spmb-2026"
-                className="w-full sm:w-auto px-10 py-5 bg-blue-600 text-white rounded-2xl md:rounded-3xl font-black text-base md:text-lg border border-blue-500/50 hover:bg-blue-700 transition-all hover:scale-105 shadow-lg shadow-blue-600/40"
+                className="w-full sm:w-auto px-10 py-5 bg-blue-600 text-white rounded-2xl md:rounded-3xl font-black text-base md:text-lg border border-blue-500/50 hover:bg-blue-700 transition-all hover:scale-105 shadow-lg shadow-blue-600/40 flex items-center justify-center"
               >
                 Daftar Sekarang
               </Link>
@@ -342,6 +344,7 @@ export default function Home() {
                 <a
                   href="https://wa.me/6289694224226"
                   target="_blank"
+                  relative="noopener noreferrer"
                   className="group px-6 py-4 bg-white text-blue-700 rounded-xl md:rounded-2xl font-black shadow-xl flex items-center justify-between gap-4 transition-all hover:scale-[1.02]"
                 >
                   <div className="flex items-center gap-3">
@@ -354,6 +357,7 @@ export default function Home() {
                 <a
                   href="https://wa.me/6282154199008"
                   target="_blank"
+                  relative="noopener noreferrer"
                   className="group px-6 py-4 bg-white text-blue-700 rounded-xl md:rounded-2xl font-black shadow-xl flex items-center justify-between gap-4 transition-all hover:scale-[1.02]"
                 >
                   <div className="flex items-center gap-3">
