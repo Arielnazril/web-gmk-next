@@ -26,7 +26,7 @@ export default function TentangKami() {
       number: "02",
       title: "Sekolah Dasar",
       sub: "Elementary",
-      img: "tentangkami-sd.PNG",
+      img: "kurikulum-sd2.PNG",
       accent: "from-blue-600 to-indigo-700",
       text_accent: "text-blue-600",
       desc: "Penguatan literasi dan numerasi dasar dengan integrasi kurikulum Nasional untuk mengasah kemandirian serta logika berpikir siswa.",
