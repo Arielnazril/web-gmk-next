@@ -109,6 +109,22 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+
+            <div className="mt-8 bg-white/5 border border-white/10 p-6 rounded-[2rem] hover:bg-white/[0.08] transition-all">
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 bg-slate-500/20 text-slate-400 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                  <i className="fas fa-map-marker-alt text-lg"></i>
+                </div>
+                <div>
+                  <p className="text-[9px] font-bold text-slate-400 uppercase tracking-widest mb-1">Lokasi Kami</p>
+                  <p className="text-white font-medium text-[15px] leading-relaxed">
+                    Jl. Padat Karya, Jl. Aloevera No. 88, <br />
+                    Kel. Bansir Darat, Kec. Pontianak Tenggara, <br />
+                    Pontianak, Kalimantan Barat 78124
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
